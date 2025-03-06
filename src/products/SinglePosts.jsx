@@ -26,8 +26,8 @@ const SinglePosts = () =>{
         // axios.get('http://localhost:4000/api/posts' + '/' + id)
         //     .then(res => setPost(res.data))
         //     .catch(err => console.error(err))
-        fetchPosts(index)
-    }, [index])
+        fetchPosts(id)
+    }, [id])
 
     return (
         <h1>Post Singolo {post.title}</h1>

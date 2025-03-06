@@ -42,7 +42,7 @@ const GlobalProvider = ( {children} ) => {
     )
 }
 
-const useGlobalContext = useContext(GlobalContext)
+const useGlobalContext = () => useContext(GlobalContext)
 
 export {
     GlobalProvider,
